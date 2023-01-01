@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input{
+    text-align: center;
+    margin-top: 40px;
+}
+#inputValue,#inputBtn{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+    outline: none;
+}
+#inputValue{
+    padding: 10px;
+    background-color: rgba(230, 230, 230, 0.705);
+    box-shadow: 0 1px 2px rgba(191, 192, 190, 0.836);
+}
+#inputBtn{
+    background-color: rgba(10, 126, 10, 0.541);
+    color: white;
+    box-shadow: 0 1px 2px rgb(74, 121, 65);
+    margin-left: 10px;
+}
+#infoBox{
+    margin-top: 40px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 260px);
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    padding: 80px;
+    padding-top: 0;
+}
+.box{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(245, 244, 244, 0.705);
+    box-shadow: 0 1px 2px rgba(191, 192, 190, 0.836);
+    border-radius: 5px;
+}
+img{
+    width: 260px;
+    height: 400px;
+    box-shadow: 0 1px 2px rgba(86, 87, 85, 0.836);
+    border-radius: 5px 5px 0 0;
+}
+h4{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+h5{
+    font-family: sans-serif;
+    color: rgba(10, 10, 10, 0.596);
+}
+button{
+    width: 170px;
+    height: 40px;
+    background-color: rgba(10, 126, 10, 0.541);
+    color: white;
+    box-shadow: 0 1px 2px rgb(74, 121, 65);
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+}
+.detalisBox{
+    width: 800px;
+    height: 490px;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    padding: 40px;
+    display: flex;
+    box-shadow: 0 1px 2px rgba(86, 87, 85, 0.836);
+    background-color: rgb(245, 244, 244);
+    border-radius: 5px;
+    z-index: 2;
+    transition: all 0.8s ease 0s;
+
+}
+.name{
+    text-align: center;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(86, 87, 85, 0.836);
+    background-color: rgba(110, 103, 103, 0.596);;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+.rightBox{
+    padding: 15px;
+}
+.info{
+    margin-top: 10px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    color: rgba(10, 10, 10, 0.596);
+}
+span{
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: black;
+}
+.model-container{
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+#movie{
+    width: 800px;
+    height: 140px;
+    box-shadow: 0 1px 2px rgba(86, 87, 85, 0.836);
+    background-color: rgb(245, 244, 244);
+    border-radius: 5px;
+    position: absolute;
+    top: 50px; left: 300px; bottom: 0; right: 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+    padding: 30px 0 30px 0;
+    font-weight: normal;
+    font-family: sans-serif;
+    display: none;
+    z-index: 2;
+    transition: all 0.8s ease 0s;
+}
+
